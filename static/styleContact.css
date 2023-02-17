@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 80vh;
+    margin-top: 42px;
+    background-color: whitesmoke;
+}
+
+.container h1{
+    font-family: 'Lacquer', cursive;
+    font-size: 35px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    display: block;
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: wheat;
+    background: red;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover{
+    border: 4px solid red;
+    color: black;
+    background: wheat;
+    transition: 0.9s;
+}

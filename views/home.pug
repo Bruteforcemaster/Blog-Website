@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content 
+
+    section#introSection 
+        div  Welcome to Nrityakala Dance Academy.
+        div.small  Live Learn Dance Repeat 
+    section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/Dan_02.jpg")
+                div.var-content
+                    p This is the best academy
+        div.card
+            h3 Dance the way you like 
+            div.card-box
+                div.card-img
+                    img(src="/static/Dan_03.jpg")
+                div.var-content
+                    p This is the best academy
+        div.card
+            h3 Any body can dance
+            div.card-box
+                div.card-img
+                    img(src="/static/Dan_04.jpg")
+                div.var-content
+                    p This is the best academy 
+    section#sponsorsSection 
+        h2 Our sponsors 
+        div#sponsors
+            img(src="/static/Logo_01.png" alt="Sponsor Image" class="spimage")
+            img(src="/static/Logo_02.png" alt="Sponsor Image" class="spimage")
+            img(src="/static/Logo_03.png" alt="Sponsor Image" class="spimage")
+            img(src="/static/Logo_04.png" alt="Sponsor Image" class="spimage")
+
